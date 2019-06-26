@@ -1,0 +1,36 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/media/huisse/Storage/Shared/HiveCam/HiveCam/HiveCam.sch</h1>
+    <p>Mi 24 Apr 2019 13:22:50 CEST</p>
+    <p>Eeschema 5.1.1-8be2ce7~80~ubuntu18.04.1</p>
+    <p><b>Component Count:</b>98</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1, C7</td><td>2</td><td>0.01u</td><td>Device:C</td><td>Capacitor_SMD:C_0402_1005Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C2, C3, C9, C10, C11, C12, C13, C14</td><td>8</td><td>2m</td><td>Device:CP</td><td>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</td><td>Polarized capacitor</td><td></td></tr>
+    <tr><td>C4, C5, C6, C8</td><td>4</td><td>1u</td><td>Device:C</td><td>Capacitor_SMD:C_0402_1005Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>D1, D2, D5, D6, D7, D8, D9, D10</td><td>8</td><td>LED</td><td>Device:LED</td><td>LED:SFH-4716S</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>D3, D4</td><td>2</td><td>DIODE</td><td>pspice:DIODE</td><td>Diode_SMD:D_0603_1608Metric</td><td>Diode symbol for simulation only. Pin order incompatible with official kicad footprints</td><td></td></tr>
+    <tr><td>Q1, Q2, Q5, Q6, Q7, Q8, Q9, Q10</td><td>8</td><td>NTMS4807NR2G</td><td>ao4752:AO4752</td><td>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</td><td></td><td></td></tr>
+    <tr><td>Q3, Q4</td><td>2</td><td>NSVMMBT2222AM3T5G </td><td>Device:Q_NPN_BCE</td><td>Package_TO_SOT_SMD:SOT-723</td><td>NPN transistor, base/collector/emitter</td><td></td></tr>
+    <tr><td>Q11</td><td>1</td><td>RFD14N05L</td><td>ao4752:RFD14N05L</td><td>Package_TO_SOT_THT:TO-251-3_Vertical</td><td>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</td><td></td></tr>
+    <tr><td>R1, R6, R11, R12, R13, R16, R18, R21, R22, R26, R31, R36, R47, R48, R57, R58</td><td>16</td><td>10k</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R2, R3, R4, R5, R7, R8, R9, R10, R27, R28, R29, R30, R32, R33, R34, R35, R39, R40, R41, R42, R43, R44, R45, R46, R49, R50, R51, R52, R53, R54, R55, R56</td><td>32</td><td>2</td><td>Device:R</td><td>Resistor_SMD:R_2512_6332Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R14, R17, R23, R24</td><td>4</td><td>22k</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R15, R20</td><td>2</td><td>4.7k</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R19</td><td>1</td><td>500</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R25</td><td>1</td><td>100k</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>U1, U5, U6, U7</td><td>4</td><td>LMV358</td><td>Amplifier_Operational:LMV358</td><td>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</td><td>Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8</td><td></td></tr>
+    <tr><td>U2, U4</td><td>2</td><td>NE555DR</td><td>Timer:LM555</td><td>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</td><td>Timer, DIP-8/SOIC-8/SSOP-8</td><td></td></tr>
+    <tr><td>U3</td><td>1</td><td>74LVC2G08</td><td>74xGxx:74LVC2G08</td><td>Package_SO:TSSOP-8_3x3mm_P0.65mm</td><td>Dual AND Gate, Low-Voltage CMOS</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
